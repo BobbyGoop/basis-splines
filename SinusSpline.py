@@ -63,6 +63,6 @@ if __name__ == "__main__":
     plt.plot(*spline.get_spline_native(), label = "spline")
     # plt.plot(*spline.get_spline_auto())
     plt.scatter(*spline.get_original_points(), s=70, label ="points")
-    plt.scatter(*spline.get_additional_knots(), s=80, label = "knots", marker='x')
+    # plt.scatter(*spline.get_additional_knots(), s=80, label = "knots", marker='x')
     plt.legend(loc="best")
     plt.show()
